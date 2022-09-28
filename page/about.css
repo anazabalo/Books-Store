@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  .about__container {
+    display: flex;
+    justify-content: center;
+    background-color: #fed766;
+    color: #64D810;
+    padding: 5px;
+  }
+  
+  .about__items {
+    max-width: 500px;
+    min-height: 200px;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .container {
+    box-shadow: 0 4px 8px 0 #64D810;
+    margin: 8px;
+  }
+  
+  .items {
+    padding: 10px;
+  }
+  
+  
+  .title {
+    color: #64D810;
+  }
