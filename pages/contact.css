@@ -17,7 +17,6 @@ main {
 .contact__container {
   max-width: 1039px;
   width: 100%;
-  border: 1px solid blue;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,7 +24,7 @@ main {
 }
 
 .form__container {
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   box-shadow: -2px 3px 14px 0px #7d7d7d;
   box-sizing: border-box;
@@ -81,4 +80,25 @@ form {
   margin: 0 auto;
   position: relative;
   top: 20px;
+}
+
+.information__container {
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 50px;
+  padding: 20px;
+  background-color: #f4f4f8;
+  box-shadow: -2px 3px 14px 0px #7d7d7d;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.information__title {
+  font-size: 30px;
+}
+
+.information__paragraph {
+  margin: 20px 0px;
+  font-size: 18px;
 }
