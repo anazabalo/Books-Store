@@ -7,11 +7,11 @@ body {
 }
 
 header {
-    margin: 15px 0 65px 0;
     display: flex;
     justify-content: center;
     width: 80%;
     height: 70vh;
+    margin: 15px 0 15px 0;
     background-image: url(../images/header_img.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -20,13 +20,16 @@ header {
 }
 
 nav {
-    position: sticky;
-    top: 30px;
+    position: fixed;
+    z-index: 1;
     display: flex;
     justify-content: center;
-    height: 15%;
-    width: 80%;
+    align-items: center;
+    height: 10%;
+    width: 70%;
     margin-top: 30px;
+    background-color: hsl(78, 36%, 95%);
+    border-radius: 10px;
 }
 
 .navbar-list {
