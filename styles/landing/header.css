@@ -84,3 +84,16 @@ nav {
 .navbar-list a:hover {
     color: #64d810;
 }
+
+.nav__icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 8%;
+}
+
+.nav__icons img {
+    height:3vh;
+    width: 100%;
+}
