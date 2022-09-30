@@ -1,0 +1,43 @@
+.h1{
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: center;
+    color:#666662;
+}
+
+.button{
+    font-family: 'poppins' , sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 50px;
+    height:40px;
+    border-radius: 25px;
+    border: none;
+    color: #000000;
+    background-color: #64d810;
+}
+
+/*.btns{
+    position: relative;
+    margin-left: 15%;
+   
+    
+   
+}*/
+
+.button:hover{
+    background-color: lightgreen;
+    transition: ease-in;
+
+}
+
+/*.covers{
+    position: absolute;
+    margin-left: 10px;
+}
