@@ -1,10 +1,23 @@
-.h1{
+body {
+    width: 100%;
+}
+
+.heading3{
     font-family: 'poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 500;
     line-height: 15px;
     text-align: center;
     color:#666662;
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 80%;
+    background-color: aqua;
+
 }
 
 .button{
