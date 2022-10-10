@@ -2,7 +2,7 @@
 footer {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
-    height: 40vh;
+    height: 15vh;
     width: 80%;
     border-radius: 0px 0px 50px 50px;
     box-shadow: 0px 0px 50px #64d810;
@@ -48,4 +48,8 @@ footer {
     font-size: 20px;
     color: black;
     text-decoration: none;
+}
+
+.footer__a:hover {
+    color: #64d810;
 }

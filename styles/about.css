@@ -1,22 +1,16 @@
-body {
-  font-family: 'Short Stack', cursive;
+
+header {
   width: 100%;
-  height: 100vh;
   display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
 }
 
 nav {
-  position: fixed;
-  z-index: 1;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  height: 10%;
-  width: 75%;
-  margin-top: 30px;
+  justify-content: center;
+  width: 80%;
   background-color: hsl(78, 36%, 95%);
   border-radius: 10px;
 }
@@ -68,11 +62,35 @@ nav {
   width: 100%;
 }
 
+main {
+  font-family: 'Short Stack', cursive;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container__about__image {
+  width: 80%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-image: url(../images/about/people-books.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+
+}
+
 .about__container__header {
   width: 80%;
   display: flex;
   justify-content: center;
-  color: #000000;
+  color: #184724;
   border-radius: 5px;
   margin: 1%;
   box-shadow: 4px 4px 8px 0 #64D810;
@@ -88,6 +106,7 @@ nav {
   display: flex;
   justify-content: center;
   padding: 5px;
+  margin-bottom: 1%;
 }
   
 .container__our {
