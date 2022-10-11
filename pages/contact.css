@@ -12,7 +12,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e6e6ea;
+  background-color: #fff;
   font-family: 'Short Stack', cursive;
 }
 /* NAVBAR */
@@ -96,7 +96,7 @@ nav {
   max-width: 360px;
   height: 600px;
   width: 100%;
-  background-color: #fed766;
+  background-color: #f4f4f8;
   padding: 20px;
 }
 
@@ -117,8 +117,8 @@ form {
 .input__field {
   font-family: 'Short Stack', cursive;
   box-sizing: border-box;
-  background-color: #fed766;
-  border-bottom: 1px solid #fff;
+  background-color: #f4f4f8;
+  border-bottom: 1px solid #000;
   max-width: 300px;
   width: 100%;
   margin: 15px 0px;
@@ -137,7 +137,6 @@ form {
   min-height: 50px;
   border-radius: 30px;
   background-color: #64d810;
-  font-weight: 600;
   font-size: 15px;
   line-height: 21px;
   text-align: center;
@@ -154,7 +153,6 @@ form {
 }
 
 .information__container {
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -188,7 +186,6 @@ form {
 
 .accordion__label {
   display: block;
-  font-weight: 600;
   cursor: pointer;
   font-size: 18px;
 }
