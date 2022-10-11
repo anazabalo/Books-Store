@@ -11,7 +11,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #e6e6ea;
-  font-family: 'Proxima Nova';
+  font-family: 'Short Stack', cursive;
 }
 
 .contact__container {
@@ -31,8 +31,9 @@ main {
   display: flex;
   flex-direction: column;
   max-width: 360px;
+  height: 600px;
+
   width: 100%;
-  min-height: 600px;
   background-color: #fed766;
   padding: 20px;
 }
@@ -47,25 +48,28 @@ form {
   margin: 10px 0;
   font-size: 18px;
   font-weight: 600;
-  line-height: 21px;
+  line-height: 11px;
   text-transform: uppercase;
 }
 
 .input__field {
+  font-family: 'Short Stack', cursive;
   box-sizing: border-box;
   background-color: #fed766;
   border-bottom: 1px solid #fff;
   max-width: 300px;
   width: 100%;
-  margin: 20px 0px;
+  margin: 15px 0px;
+  outline: none;
 }
 
 .textarea {
   border-radius: 10px;
+  resize: none;
 }
 
 .btn {
-  font-family: 'Proxima Nova';
+  font-family: 'Short Stack', cursive;
   max-width: 150px;
   width: 100%;
   min-height: 50px;
@@ -80,6 +84,11 @@ form {
   margin: 0 auto;
   position: relative;
   top: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4fab0e;
 }
 
 .information__container {
@@ -99,6 +108,41 @@ form {
 }
 
 .information__paragraph {
-  margin: 20px 0px;
   font-size: 18px;
+  margin: 50px 0px;
+}
+
+.accordion__container {
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.accordion__label,
+.accordion__content {
+  padding: 14px 20px;
+}
+
+.accordion__label {
+  display: block;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.accordion__label:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.accordion__content {
+  background-color: #fff;
+  line-height: 26px;
+  display: none;
+}
+
+.accordion__input {
+  display: none;
+}
+
+.accordion__input:checked ~ .accordion__content {
+  display: block;
 }
